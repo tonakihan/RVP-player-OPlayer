@@ -1,0 +1,21 @@
+{
+  "name": "rvp_player_oplayer",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Support OPlayer for RVP",
+  "main": "index.ts",
+  "author": "tonakihan",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "script-install": "xdg-open file:./dist/index.user.js",
+    "_n": "find ./dist -type f -exec sed -i 's|include||g' {} +"
+  },
+  "devDependencies": {
+    "@oplayer/core": "^1.2.38-beta.2",
+    "@oplayer/ui": "^1.3.4-beta.8",
+    "tsc": "^2.0.4",
+    "typescript": "^5.9.2"
+  }
+}
