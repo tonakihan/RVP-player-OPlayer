@@ -15,11 +15,9 @@
 // ==/UserScript==
 "use strict";
 
-// TODO: Выпилить все импорты после сборки
 import OPlayer from "@oplayer/core";
 import OUI from "@oplayer/ui";
 
-// TODO: Проверить проблему с областью видимости
 const playerFunction: TPlayerFunction = (video, stockPlayer) => {
   if (isBlobUrl(video.src)) {
     alert("Error! Found 'blob' source which not support the video player.");

@@ -8,9 +8,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "tsc",
-    "script-install": "xdg-open file:./dist/index.user.js",
-    "_n": "find ./dist -type f -exec sed -i 's|include||g' {} +"
+    "build": "tsc; find ./dist -type f -exec sed -i 's|import.*||g' {} +",
+    "script-install": "xdg-open file:./dist/index.user.js"
   },
   "devDependencies": {
     "@oplayer/core": "^1.2.38-beta.2",
