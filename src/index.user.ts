@@ -50,6 +50,8 @@ function isBlobUrl(url: string) {
 function main() {
   if (!window.RVP_players) {
     window.RVP_players = [{ name: "OPlayer", function: playerFunction }];
+  } else {
+    window.RVP_players.push({ name: "OPlayer", function: playerFunction });
   }
 }
 main();
