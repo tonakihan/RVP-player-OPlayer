@@ -27,6 +27,7 @@ const playerFunction: TPlayerFunction = (video, stockPlayer) => {
   }
 
   const player = document.createElement("div");
+  player.style.fontFamily = "Open Sans, FreeSans, sans-serif";
 
   OPlayer.make(player, {
     source: {
