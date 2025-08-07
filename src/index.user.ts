@@ -1,15 +1,15 @@
 // ==UserScript==
 // @name         RVP player: OPlayer
-// @source       https://github.com/tonakihan/RVP-player-OPlayer
+// @homepage     https://github.com/tonakihan/RVP-player-OPlayer
+// @source       https://raw.githubusercontent.com/tonakihan/RVP-player-OPlayer/refs/heads/releases/
 // @namespace    http://tampermonkey.net/
-// @version      Alpha-v1
+// @version      1.0
 // @description  Support of OPlayer for RVP
 // @author       tonakihan
 // @match        http*://**/*
 // @icon         https://img.icons8.com/?size=100&id=h1ELI6ISswGD&format=png&color=000000
 // @require      https://cdn.jsdelivr.net/npm/@oplayer/core@latest/dist/index.min.js
 // @require      https://cdn.jsdelivr.net/npm/@oplayer/ui@latest/dist/index.min.js
-// @require      https://cdn.jsdelivr.net/npm/@oplayer/hls@latest/dist/index.min.js
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
